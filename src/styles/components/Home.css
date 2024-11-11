@@ -101,3 +101,21 @@ body {
   .content-container li a:hover {
     text-decoration: underline;
   }
+
+  .lesson-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
