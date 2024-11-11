@@ -14,7 +14,7 @@ const Lesson2 = () => {
   };
 
   return (
-    <div>
+    <div className="lesson-container">
       <h1>Lesson 2: Control Structures</h1>
       <p>Control structures help us manage the flow of execution in our programs...</p>
       <h3>Example: Conditional Statement</h3>
@@ -31,21 +31,21 @@ const Lesson2 = () => {
       </pre>
       <h3>Exercise: Voting Eligibility</h3>
       <p>Enter your age to check if you are eligible to vote:</p>
-      <input 
-        type="number" 
-        value={age} 
-        onChange={(e) => setAge(e.target.value)} 
-        placeholder="Enter your age" 
+      <input
+        type="number"
+        value={age}
+        onChange={(e) => setAge(e.target.value)}
+        placeholder="Enter your age"
       />
       <button onClick={handleCheckAge}>Check Eligibility</button>
       <p>{message}</p>
-      
+
       <div style={{ marginTop: '20px' }}>
         <Link to="/lesson3">
           <button>Next Lesson</button>
         </Link>
       </div>
-      
+
 
 
     </div>

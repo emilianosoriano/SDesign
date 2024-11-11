@@ -18,7 +18,7 @@ const Lesson3 = () => {
   };
 
   return (
-    <div>
+    <div className="lesson-container">
       <h1>Lesson 3: Functions</h1>
       <p>Functions are blocks of reusable code that perform specific tasks...</p>
       

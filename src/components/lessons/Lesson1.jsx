@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Lesson1 = () => {
   return (
-    <div>
+    <div className="lesson-container">
       <h1>Lesson 1: Introduction to Variables</h1>
       <h2>What are Variables?</h2>
       <p>A variable is a named storage location in memory that holds a value.</p>
