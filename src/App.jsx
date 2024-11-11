@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Lesson1 from './components/lessons/Lesson1.jsx';
-import Lesson2 from './components/lessons/Lesson2.jsx';
-import Lesson3 from './components/lessons/Lesson3.jsx';
+import Lesson1 from './components/lessons/Lesson1';
+import Lesson2 from './components/lessons/Lesson2';
+import Lesson3 from './components/lessons/Lesson3';
 
 const App = () => {
   return (
